@@ -1,0 +1,55 @@
+/* index.css - Estilos Globais */
+:root {
+  --cor-1: #e23e57;
+  --cor-2: #ffffff;
+  --cor-3: #e96a7e;
+  --cor-4: #ce1f3a;
+  --cor-5: #e6e6e6;
+  --cor-6: #ef97a4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--cor-5);
+  color: black;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--cor-4);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-1);
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--cor-1);
+  color: var(--cor-2);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--cor-3);
+}
+
+button:disabled {
+  background-color: var(--cor-3);
+  cursor: not-allowed;
+}

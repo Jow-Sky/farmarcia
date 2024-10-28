@@ -46,13 +46,15 @@
   
 }
 
-.home section {
+.coluna {
   padding: 0px;
   background-color: var(--cor-6);
   flex: 1;
   padding: 0px;
   border: 6px solid var(--cor-1);
   border-radius: 30px;
+  text-align: center;
+  ;
  
 }
 
@@ -89,7 +91,7 @@
   min-width: 150px;
 }
 
-.queue-display {
+.queuedisplay {
   margin-top: 20px;
   font-size: 22px;
   font-weight: bold;

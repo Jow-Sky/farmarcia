@@ -2,7 +2,7 @@ import React from 'react';
 
 const QueueDisplay = ({ currentTicket, isQueueEmpty }) => {
   return (
-    <div className="queue-display">
+    <div className="queuedisplay">
       {isQueueEmpty ? (
         <h3>A fila está vazia</h3>
       ) : (
